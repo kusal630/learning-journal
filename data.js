@@ -1,7 +1,7 @@
 export const blogData = [
     {
-        name:'blog-1',
-        image:'article-image-03',
+        name:'Blog-1',
+        image:'article-image-03.png',
         date:'JULY 23,2022',
         content:`I'm excited to start a new learning journey
          as a Scrimba Bootcamp student! 
@@ -9,8 +9,8 @@ export const blogData = [
          Frontend Developer Career Path.`
     },
     {
-        name:'blog-2',
-        image:'article-image-02',
+        name:'Blog-2',
+        image:'article-image-02.png',
         date:'JULY 23,2022',
         content:`I'm excited to start a new learning 
         journey as a Scrimba Bootcamp student! 
@@ -18,8 +18,8 @@ export const blogData = [
         Frontend Developer Career Path.`
     },
     {
-        name:'blog-3',
-        image:'article-image-01',
+        name:'Blog-3',
+        image:'article-image-01.png',
         date:'JULY 23,2022',
         content:`I'm excited to start a new learning journey 
         as a Scrimba Bootcamp student! After several months 
