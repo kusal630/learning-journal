@@ -1,5 +1,124 @@
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
 html, 
 body {
     margin: 0;
-    padding: 0;
 }
+
+body{
+    width:414px;
+    height:1767px;
+}
+
+/* header */
+
+header{
+    display:flex;
+    width:414px;
+    height:59px;
+    background:#FFFFFF;
+    justify-content:space-between;
+    align-items:center;
+    /* gap:0 80px */
+    background:blue;
+    margin:0;
+    padding:0 1.25rem;
+}
+
+.header-logo-container{
+    width: 23.16px;
+    height:23.16px;
+}
+
+
+.header-img-title{
+    display:flex;
+    /* background:pink; */
+    width:140px;
+    height:23.16px;
+    justify-content:space-around;;
+    align-items:center;
+}
+
+.header-heading{
+    font-weight:bold;;
+    color:#0E0E0E;
+    font-family: "Roboto", sans-serif;
+    font-size:0.85em;
+    margin:0;
+    letter-spacing:-3%;
+}
+
+.header-btns{
+    /* background:blue; */
+    width: 110px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight:600;
+    font-size:0.75em;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    letter-spacing:0%;
+    line-height:auto;
+    color:#090909;
+    /* background:red; */
+}
+
+main,
+section{
+    margin:0;
+}
+
+/* intro section */
+.intro{
+    width:414px;
+    height:293px;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+    align-items:start;
+    background-image:url("../images/article-image.png");
+    background-size:cover;
+    background-position:center;
+    /* background-repeat: no-repeat; */
+    color:#FFFFFF;
+    padding:20px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+/* .intro p,
+h1{
+    margin:0;
+} */
+
+.intro-date{
+    font-size:0.75em;
+    letter-spacing:0%;
+    line-height:auto;
+    margin:0px;
+    opacity:80%;
+}
+
+.intro-heading{
+    font-size:2em;
+    font-weight:bold;
+    line-height:108.2%;
+    letter-spacing:-3%;
+    margin:5px 0 5px 0;
+}
+
+.intro-context{
+    font-size:1em;
+    font-weight:0;
+    letter-spacing: 0%;
+    line-height:auto;
+    opacity: 80%;
+    margin:0px;
+}
+
+
